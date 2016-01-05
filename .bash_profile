@@ -1,8 +1,7 @@
 alias ls='ls -G'
 alias dir='ls -lsa'
-. ~/.nvm/nvm.sh
 
-if [ -r ~/.bash_prompt ]; then 
+if [ -r ~/.bash_prompt ]; then
     . ~/.bash_prompt
 fi
 
