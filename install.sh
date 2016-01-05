@@ -41,7 +41,7 @@ brew cask install vlc
 brew cask install wireshark
 
 npm i -g n
-n 4.2.3
+n 4.2
 npm i -g npm
 
 ME=`basename $PWD`
