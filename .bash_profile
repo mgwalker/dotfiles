@@ -1,5 +1,5 @@
 alias ls='ls -G'
-alias dir='ls -lsa'
+alias dir='ls -lsah'
 
 if [ -r ~/.bash_prompt ]; then
     . ~/.bash_prompt
