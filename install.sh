@@ -4,6 +4,11 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
+mv .bash_profile ~
+mv .bash_prompt ~
+mv .git-completion ~
+mv .gitconfig ~
+
 # Casks
 brew install caskroom/cask/brew-cask
 brew install ack
@@ -39,4 +44,6 @@ npm i -g n
 n 4.2.3
 npm i -g npm
 
-rm ~/install.sh
+ME=`basename $PWD`
+cd ..
+rm -rf $ME
