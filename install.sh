@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-
 mv .bash_profile ~
 mv .bash_prompt ~
 mv .git-completion ~
 mv .gitconfig ~
+
+# Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
 
 # Casks
 brew install caskroom/cask/brew-cask
