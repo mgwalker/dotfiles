@@ -15,7 +15,7 @@ brew install ack
 brew install node
 brew cask install 1password
 brew cask install amazon-music
-brew cast install atom
+brew cask install atom
 brew cask install bettertouchtool
 brew cask install carbon-copy-cloner
 brew cask install daisydisk
